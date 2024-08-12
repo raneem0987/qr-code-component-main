@@ -1,0 +1,43 @@
+:root{
+    --primary-light-color: hsl(0, 0%, 100%);
+    --primary-color: hsl(212, 45%, 89%);
+    --primary-dark-color: hsl(218, 44%, 22%);
+    --second-color: hsl(216, 15%, 48%);
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+div.qr-card{
+    background-color: var(--primary-light-color);
+    width: 265px;
+    height: 420px;
+    margin-left: 629px;
+    margin-top: 139px;
+    border-radius: 20px;
+}
+
+div.qr-card img{
+    width: 243px;
+    height: 266px;
+    margin-left: 11px;
+    margin-top: 13px;
+    border-radius: 14px;
+}
+
+div.qr-card h1{
+    font-size: large;
+    margin-left: 24px;
+    text-align: center;
+    margin-right: 35px;
+}
+
+div.qr-card p{
+    color: var(--second-color);
+    margin-left: -9px;
+    font-size: small;
+    text-align: center;
+}
+
+
